@@ -1,13 +1,14 @@
 import React from "react";
 
 // component
-// from nya ganti buat liat yg lain
-import Answer from "./tutorial/1-useState/answer/5-useState-counter";
+// import UseState from "./tutorial/1-useState/projects/birthday";
+// import UseEffect from "./tutorial/2-useEffect/answer/3-useEffect-fetch-data";
+import ConditionalRendering from "./tutorial/3-conditional-rendering/answer/1-multiple-returns";
 
 function App() {
   return (
     <div className="container">
-      <Answer />
+      <ConditionalRendering />
     </div>
   );
 }
