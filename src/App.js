@@ -6,12 +6,13 @@ import React from "react";
 // import ConditionalRendering from "./tutorial/3-conditional-rendering/answer/3-show-hide";
 // import Form from "./tutorial/4-forms/answer/2-multiple-inputs";
 // import UseRef from "./tutorial/5-useRef/answer/1-useRef-basics"
-import UseReducer from "./tutorial/6-useReducer/answer/index";
+// import UseReducer from "./tutorial/6-useReducer/answer/index";
+import PropDrill from "./tutorial/7-prop-drilling/answer/1-prop-drilling";
 
 function App() {
   return (
     <div className="container">
-      <UseReducer />
+      <PropDrill />
     </div>
   );
 }
