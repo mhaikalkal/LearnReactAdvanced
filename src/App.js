@@ -9,12 +9,13 @@ import React from "react";
 // import UseReducer from "./tutorial/6-useReducer/answer/index";
 // import PropDrill from "./tutorial/7-prop-drilling/answer/1-prop-drilling";
 // import ContextAPI from "./tutorial/8-useContext/answer/1-context-api";
-import FetchEx from "./tutorial/9-custom-hooks/answer/1-fetch-example";
+// import FetchEx from "./tutorial/9-custom-hooks/answer/1-fetch-example";
+import PropType from "./tutorial/10-prop-types/answer/index";
 
 function App() {
   return (
     <div className="container">
-      <FetchEx />
+      <PropType />
     </div>
   );
 }
