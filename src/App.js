@@ -10,12 +10,13 @@ import React from "react";
 // import PropDrill from "./tutorial/7-prop-drilling/answer/1-prop-drilling";
 // import ContextAPI from "./tutorial/8-useContext/answer/1-context-api";
 // import FetchEx from "./tutorial/9-custom-hooks/answer/1-fetch-example";
-import PropType from "./tutorial/10-prop-types/answer/index";
+// import PropType from "./tutorial/10-prop-types/answer/index";
+import ReRouter from "./tutorial/11-react-router/answer";
 
 function App() {
   return (
     <div className="container">
-      <PropType />
+      <ReRouter />
     </div>
   );
 }
