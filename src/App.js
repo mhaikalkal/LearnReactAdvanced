@@ -8,12 +8,13 @@ import React from "react";
 // import UseRef from "./tutorial/5-useRef/answer/1-useRef-basics"
 // import UseReducer from "./tutorial/6-useReducer/answer/index";
 // import PropDrill from "./tutorial/7-prop-drilling/answer/1-prop-drilling";
-import ContextAPI from "./tutorial/8-useContext/answer/1-context-api";
+// import ContextAPI from "./tutorial/8-useContext/answer/1-context-api";
+import FetchEx from "./tutorial/9-custom-hooks/answer/1-fetch-example";
 
 function App() {
   return (
     <div className="container">
-      <ContextAPI />
+      <FetchEx />
     </div>
   );
 }
