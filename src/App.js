@@ -11,12 +11,13 @@ import React from "react";
 // import ContextAPI from "./tutorial/8-useContext/answer/1-context-api";
 // import FetchEx from "./tutorial/9-custom-hooks/answer/1-fetch-example";
 // import PropType from "./tutorial/10-prop-types/answer/index";
-import ReRouter from "./tutorial/11-react-router/answer";
+// import ReRouter from "./tutorial/11-react-router/answer";
+import MemoCallback from "./tutorial/12-memo-useMemo-useCallback/answer/index";
 
 function App() {
   return (
     <div className="container">
-      <ReRouter />
+      <MemoCallback />
     </div>
   );
 }
